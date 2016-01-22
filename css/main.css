@@ -11,13 +11,16 @@ html{
 	-webkit-text-size-adjust: 100%;	
 	text-size-adjust: 100%;
 
-}		
-*, *::before, *::after{
+}	
+
+*, *::before, *::after {
 	box-sizing: inherit;
 }
+
 body {
 	margin: 0;
 }
+
 .tabs {
 	margin: 0;
 	padding: 0;
@@ -25,12 +28,14 @@ body {
 	position: absolute;
 	padding-top: 54.5%;
 	text-align: center;
-	width: 100%; /*optional*/
+	width: 100%;
 
 }
+
 img{
-	width: 100%; /*optional*/
+	width: 100%;
 }
+
 .tabs > li {
 	display: inline-block;
 }
@@ -45,6 +50,7 @@ img{
 	transition: all 50ms linear;
 	position: relative;
 }
+
 .tabs a:hover {
 	background-color: lightgrey;
 	border: 2px solid lightgrey;
@@ -68,7 +74,7 @@ img{
 		top:0;
 		text-align: center;
 		margin: 0;
-		width: 100%;/*optional*/
+		width: 100%;
 	}
 
 	.panel:target {
