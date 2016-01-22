@@ -25,11 +25,11 @@ body {
 	position: absolute;
 	padding-top: 54.5%;
 	text-align: center;
-	width: 100%;
+	width: 100%; /*optional*/
 
 }
 img{
-	width: 100%;
+	width: 100%; /*optional*/
 }
 .tabs > li {
 	display: inline-block;
@@ -68,7 +68,7 @@ img{
 		top:0;
 		text-align: center;
 		margin: 0;
-		width: 100%;
+		width: 100%;/*optional*/
 	}
 
 	.panel:target {
